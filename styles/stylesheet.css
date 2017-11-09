@@ -78,7 +78,7 @@ h4 {
   float: right;
   padding-left: 5vw;
   padding-right: 5vw;
-  margin-top: 30vh;
+  margin-top: 180px;
   width: 90vw;
 }
 
@@ -117,4 +117,5 @@ footer {
   background-color: hsl(173, 58%, 75%);
   margin: auto;
   text-align: center;
+  
 }
