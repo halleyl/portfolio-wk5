@@ -15,8 +15,8 @@ body {
 
 header {
   background-color: hsl(173, 58%, 75%);
-  border-bottom: solid 10px hsl(173, 57%, 48%);
-  height: 25vh;
+  border-bottom: solid 25px hsl(173, 57%, 48%);
+  height: 150px;
   position: fixed;
   width: 100vw;
 }
@@ -24,25 +24,36 @@ header {
 h1 {
   font-family: "Stint Ultra Expanded", serif;
   font-size: 2.5rem;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.5rem;
   
 }
 
+.top-nav {
+  float: left;
+  
+}
 nav li {
   float: left;
-  margin: auto;
   padding: .25rem .5rem;
+  position: relative;
+  margin-top: 10px;
   
+}
+
+nav li a {
+  text-decoration: none;
 }
 
 .portrait {
-  max-height: 15vh;
-  max-width: 15vw;
+  float: left;
+  max-height: 125px;
+  max-width: 125px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 10px solid hsl(173, 57%, 48%);
-  border-radius: 10rem;
+  border: 25px solid hsl(173, 57%, 48%);
+  border-radius: 25rem;
+  margin: 10px 3vw;
 
 }
 
@@ -53,6 +64,7 @@ aside {
   margin-left: 5vw;
   padding: 1rem;
   width: 20vw;
+  box-shadow: 5px 5px 0 hsla(0, 100%, 0%, .25);
   
 }
 
