@@ -34,7 +34,7 @@ h1 {
   font-size: 2.5rem;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 2rem;
+  padding-top: 1.9rem;
   
 }
 
@@ -51,6 +51,7 @@ nav li {
 }
 
 nav li a {
+  font-size: 1.2rem;
   text-decoration: none;
   color: hsl(173, 65%, 20%);
 }
@@ -85,7 +86,7 @@ aside {
 }
 
 aside p {
-  line-height: 150%;
+  line-height: 250%;
 }
 
 aside ul {
@@ -95,11 +96,17 @@ aside ul {
 
 aside li {
   font-size: .9rem;
-  
+  line-height: 150%;
+
+}
+
+aside i {
+  color: hsl(173, 0%, 48%);
 }
 
 h4 {
   font-family: "Stint Ultra Expanded", sans-serif;
+  color: hsl(173, 65%, 20%);
   font-size: 1.25rem;
 }
 
@@ -162,7 +169,7 @@ footer {
   
 }
 
-i.fa {
+footer i.fa {
   padding: .5rem;
   color: hsl(173, 65%, 20%);
 }
