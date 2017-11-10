@@ -196,13 +196,3 @@ footer .fa {
   color: #003B34;
   color: hsl(173, 65%, 20%);
 }
-
-footer a {
-  text-decoration: none;
-  color: #003B34;
-  color: hsl(173, 65%, 20%);
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
