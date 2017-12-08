@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap CSS Page!</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="jumbotron bg-info text-light">
+    <h1 class="display-3">My Travel Photography</h1>
+    <p class="lead">Everybody loves looking at other people's vacation photos, right? Okay, maybe not, but that's what you're in for today!</p>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="card mx-auto" style="width: 20rem;">
+          <img class="card-img-top" src="images/england-01.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">London</h4>
+            <p class="card-text">We visited friends in Sheffield, who took us for a touristy day out in London.</p>
+            <a href="#london" class="btn btn-info">London</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card mx-auto" style="width: 20rem;">
+          <img class="card-img-top" src="images/berlin-01.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Berlin</h4>
+            <p class="card-text">Berlin has so much to explore! We enjoyed architecture, beer and museums.</p>
+            <a href="#berlin" class="btn btn-info">Berlin</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card mx-auto" style="width: 20rem;">
+          <img class="card-img-top" src="images/copenhagen-01.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Copenhagen</h4>
+            <p class="card-text">A welcoming city with a mellow vibe, full of beautiful sights and amazing food (and more beer.)</p>
+            <a href="#copenhagen" class="btn btn-info">Copenhagen</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="row w-75 mx-auto">
+      <div class="col-lg">
+        <h2 id="london">London</h2>
+        <div id="carousel-london" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/england-01.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/england-02.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/england-03.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/england-04.jpg" alt="Fourth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/england-05.jpg" alt="Fifth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/england-06.jpg" alt="Sixth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/england-07.jpg" alt="Seventh slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/england-08.jpg" alt="Eighth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/england-09.jpg" alt="Ninth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/england-10.jpg" alt="Tenth slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel-london" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-london" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="row w-75 mx-auto">
+      <div class="col-lg">
+        <h2 id="berlin">Berlin</h2>
+        <div id="carousel-berlin" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/berlin-01.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/berlin-02.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/berlin-03.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/berlin-04.jpg" alt="Fourth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/berlin-05.jpg" alt="Fifth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/berlin-06.jpg" alt="Sixth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/berlin-07.jpg" alt="Seventh slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/berlin-08.jpg" alt="Eighth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/berlin-09.jpg" alt="Ninth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/berlin-10.jpg" alt="Tenth slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel-berlin" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-berlin" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="row w-75 mx-auto">
+      <div class="col-lg">
+        <h2 id="copenhagen">Copenhagen</h2>
+        <div id="carousel-copenhagen" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/copenhagen-01.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/copenhagen-02.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/copenhagen-03.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/copenhagen-04.jpg" alt="Fourth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/copenhagen-05.jpg" alt="Fifth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/copenhagen-06.jpg" alt="Sixth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/copenhagen-07.jpg" alt="Seventh slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/copenhagen-08.jpg" alt="Eighth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/copenhagen-09.jpg" alt="Ninth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/copenhagen-10.jpg" alt="Tenth slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel-copenhagen" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-copenhagen" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p class="text-center">&copy; 2017 || Lauren Halley</p>
+  </footer>
+</body>
+</html>
